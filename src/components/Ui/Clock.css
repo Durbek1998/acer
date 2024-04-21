@@ -1,0 +1,11 @@
+@media only screen and (max-width:768px){
+    .clock-img{
+        display: none;
+    }
+    .div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

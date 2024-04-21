@@ -1,0 +1,9 @@
+.auth__form{
+    background-color: var(--primary-color);
+    /* background-color: red; */
+    padding: 40px;
+    border-radius: 5px;
+}
+.auth__form button{
+    margin-bottom: 10px;
+}

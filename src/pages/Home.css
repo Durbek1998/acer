@@ -1,0 +1,81 @@
+.hero__section{
+    background-color: var(--hero-bg);
+}
+.hero__content{
+    padding-top: 45px;
+}
+.hero__section h2{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.hero__section p {
+    color:var(--primary-color);
+    line-height: 28px;
+}
+.buy__btn{
+    margin-top: 40px;
+    border:none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background:var(--primary-color);
+    color: #ffff;
+    font-size: 1rem;
+}
+.buy__btn a:hover{
+    color: #ffff;
+}
+.timer__count{
+    background: var(--primary-color);
+    height: 300px;
+}
+.timer__count img{
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: contain;
+}
+.store__btn{
+    background-color: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.store__btn a:hover{
+    color: var(--primary-color);
+}
+@media only screen and (max-width:1200px){
+    .hero__content h2{
+        font-size: 2rem ;   
+    }
+}
+@media only screen and (max-width:992px){
+    .hero__content h2{
+        font-size: 1.3rem ;   
+    }
+}
+@media only screen and (max-width:768px){
+    .hero__content p{
+        font-size: 0.8rem ;   
+    }
+    .hero__content{
+        padding: 0px;
+    }
+    .hero__subtitle{
+        text-align: center;
+    }
+    .clock__top-content{
+        text-align: center;
+        font-size: 0.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .timer__count button{
+        text-align: center;
+        display: inline-block
+    }
+
+
+}
